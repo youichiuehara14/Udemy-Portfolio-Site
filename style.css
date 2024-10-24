@@ -1,0 +1,89 @@
+body {}
+
+* {}
+
+@media (min-width: 320px) {
+    #top-header {
+        font-size: 0.8rem;
+        /* For small screens (sm) */
+    }
+}
+
+
+@media (min-width: 450px) {
+    #top-header {
+        font-size: 1.2rem;
+        /* For small screens (sm) */
+    }
+}
+
+
+@media (min-width: 576px) {
+    #top-header {
+        font-size: 1.6rem;
+        /* For small screens (sm) */
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    #top-header {
+        font-size: 1.92rem;
+        /* For medium screens (md) */
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+    #top-header {
+        font-size: 2.8rem;
+
+    }
+}
+
+
+/* Hero Paragraph */
+
+@media (min-width: 320px) {
+    #hero-paragraph {
+        font-size: 0.3rem;
+    }
+}
+
+
+@media (min-width: 450px) {
+    #hero-paragraph {
+        font-size: 0.5rem;
+    }
+}
+
+
+
+@media (min-width: 576px) {
+    #hero-paragraph {
+        font-size: 0.72rem;
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+    #hero-paragraph {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    #hero-paragraph {
+        font-size: 1.1rem;
+
+    }
+}
+
+#button-group {
+    width: 500px;
+}
