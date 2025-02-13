@@ -2,102 +2,250 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youichi | Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youichi | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md fixed-top bg-light border-bottom shadow-sm">
-        <div class="container py-2">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <a href="#" class="navbar-brand">
-                    <img src="img/youichi-uehara-high-resolution-logo-transparent.png" alt="Youichi Uehara Logo" height="30">
-                </a>
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-2"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item mx-2"><a class="nav-link" href="#about-me">About Me</a></li>
-                    <li class="nav-item mx-2"><a class="nav-link" href="#skill-section">Skills</a></li>
-                    <li class="nav-item mx-2"><a class="nav-link" href="#project">Projects</a></li>
-                </ul>
-                <a href="#contact"><button class="btn btn-outline-primary fw-semibold mx-1 rounded-5">Let's Connect!</button></a>
-            </div>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-md fixed-top bg-light border-bottom shadow-sm ">
+    <div class="container py-2">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <a href="#" class="navbar-brand">
+          <img src=" img/youichi-uehara-high-resolution-logo-transparent.png" alt="Youichi Uehara Logo" height="30">
+        </a>
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item mx-2">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#skill-section">Skills</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#project">Projects</a>
+          </li>
+        </ul>
+        <a href="#contact">
+          <button type="button" class="btn btn-outline-primary fw-semibold mx-1 rounded-5 ">Let's
+            Connect!</button>
+        </a>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Hero Section -->
-    <section id="hero" class="mt-5 pt-5">
-        <div class="container">
-            <div class="row row-cols-2">
-                <div class="col-6 d-flex align-items-end">
-                    <img src="img/profile.png" class="img-fluid" id="hero-image" alt="Profile Picture" loading="lazy">
-                </div>
-                <div class="col-6 d-flex flex-column align-items-start justify-content-center">
-                    <h1 class="fw-bold lh-sm">Bringing <span class="text-primary">Vision</span> to Life with Engaging Websites</h1>
-                    <p class="lead text-body-secondary">Hi there! I’m Youichi Uehara, a web developer dedicated to crafting visually captivating and user-friendly websites.</p>
-                    <div class="gap-3 d-flex mb-3">
-                        <a href="https://www.behance.net/youichiuehara1">
-                            <img src="img/behance-color-svgrepo-com.svg" alt="Behance" class="img-fluid" width="30">
-                        </a>
-                        <a href="https://www.linkedin.com/in/youichiuehara/">
-                            <img src="img/linkedin-icon-svgrepo-com.svg" alt="LinkedIn" class="img-fluid" width="30">
-                        </a>
-                    </div>
-                </div>
-            </div>
+  <section id="hero">
+    <div class="container mt-5 pt-5 ">
+      <div class="row row-cols-2 ">
+        <div class=" col-6 d-flex align-items-end">
+          <img src="img/profile.png" class="img-fluid" id="hero-image" alt="Bootstrap Themes" loading="lazy">
         </div>
+        <div class=" col-6 d-flex flex-column align-items-start justify-content-center">
+          <div>
+            <h1 class="fw-bold  lh-sm " id="top-header">
+              Bringing <span class="text-primary">Vision</span> to Life with Engaging Websites
+            </h1>
+          </div>
+          <div>
+            <p class="lead text-body-secondary" id="hero-paragraph">Hi there! I’m Youichi Uehara, a web
+              developer
+              dedicated
+              to
+              crafting visually
+              captivating and user-friendly websites. I blend creativity with technical skills to
+              build
+              digital experiences that resonate. Explore my work and discover how I can elevate
+              your online
+              presence!</p>
+          </div>
+          <div class="gap-3 d-flex mb-3 button-group align-items-center">
+            <a href="https://www.behance.net/youichiuehara1">
+              <img src="img/behance-color-svgrepo-com.svg" alt="behance-icon" id="behance" class="img-fluid" width="10">
+            </a>
+            <a href="https://www.linkedin.com/in/youichiuehara/">
+              <img src="img/linkedin-icon-svgrepo-com.svg" alt="linkedin-icon" id="linkedin" class="img-fluid"
+                width="10">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="bg-light">
+    <section id="about-me">
+      <div class="container py-5">
+        <div class="border-bottom py-2 ">
+          <h2 class="fw-bold">Education</h2>
+        </div>
+        <div class="mt-5">
+          <h2 class="fw-bold fs-4">Far Eastern University Alabang <span class="fs-5 fw-semibold">(2018 -
+              2024)</span></h2>
+          <p class="text-body-secondary fs-6">I graduated with a <span class="text-primary fw-semibold">Bachelor
+              of Multimedia
+              Arts</span> from FEU Alabang in
+            September 2024. While my studies focused on creativity, I have a strong interest in web
+            development, and I’m eager to grow and build the skills needed as a professional web developer.
+        </div>
+      </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skill-section" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="fw-bold border-bottom pb-2">Skills and Tools</h2>
-            <div class="row row-cols-2 mt-3">
-                <div class="col py-3 d-flex align-items-center gap-2">
-                    <img src="img/html.png" alt="HTML" height="30"><span class="fw-bold">HTML</span>
-                </div>
-                <div class="col py-3 d-flex align-items-center gap-2">
-                    <img src="img/css.png" alt="CSS" height="30"><span class="fw-bold">CSS</span>
-                </div>
-                <div class="col py-3 d-flex align-items-center gap-2">
-                    <img src="img/js.png" alt="JavaScript" height="30"><span class="fw-bold">JavaScript</span>
-                </div>
-                <div class="col py-3 d-flex align-items-center gap-2">
-                    <img src="img/bootstrap.png" alt="Bootstrap" height="30"><span class="fw-bold">Bootstrap</span>
-                </div>
+    <section id="skill-section">
+      <div class="container mb-4">
+        <div class="border-bottom py-2">
+          <h2 class=" fw-bold">Skills and Tools</h2>
+        </div>
+        <div class="row row-cols-2 mt-3">
+          <div class="html py-3">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img src="img/html.png" alt="" height="30">
+              <span class="fw-bold">HTML</span>
             </div>
+            <div class="border bg-body-secondary rounded-5 col">
+              <div class="bg-primary  rounded-5" style="height: 10px; width: 85%;"></div>
+            </div>
+          </div>
+          <div class="css py-3">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img src="img/css.png" alt="" height="30">
+              <span class="fw-bold">CSS</span>
+            </div>
+            <div class="border bg-body-secondary rounded-5 col">
+              <div class="bg-primary  rounded-5" style="height: 10px; width: 70%;"></div>
+            </div>
+          </div>
+          <div class="javascript py-3">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img src="img/js.png" alt="" height="30">
+              <span class="fw-bold">JAVASCRIPT</span>
+            </div>
+            <div class="border bg-body-secondary rounded-5 col">
+              <div class="bg-primary  rounded-5" style="height: 10px; width: 45%;"></div>
+            </div>
+          </div>
+          <div class="bootstrap py-3">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img src="img/bootstrap.png" alt="" height="30">
+              <span class="fw-bold">BOOTSTRAP</span>
+            </div>
+            <div class="border bg-body-secondary rounded-5 col">
+              <div class="bg-primary  rounded-5" style="height: 10px; width: 75%;"></div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 class="fw-bold text-primary">Let's Connect!</h2>
-            <p class="lead">Feel free to drop me a message, and I'll get back to you as soon as I can.</p>
-            <form>
-                <div class="mb-3">
-                    <label class="form-label">Email address</label>
-                    <input type="email" class="form-control" placeholder="JohnDoe112@example.com">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Message</label>
-                    <textarea class="form-control" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
+    <section id="project">
+      <div class="container pb-5">
+        <div class="border-bottom py-2 ">
+          <h2 class="fw-bold">Projects</h2>
         </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 mt-4">
+          <div class="col py-3">
+            <a href="https://youichiuehara14.github.io/Tindog/" class="link-body-emphasis text-decoration-none">
+              <h3 class="">Tindog</h3>
+              <div class="card shadow-sm">
+                <img src="img/tindog.png" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="col py-3">
+            <a href="https://youichiuehara14.github.io/Move-It/" class="link-body-emphasis text-decoration-none">
+              <h3 class="">Move It</h3>
+              <div class="card shadow-sm">
+                <img src="img/move-it.png" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="col py-3">
+            <a href="https://youichiuehara14.github.io/pricing-table/" class="link-body-emphasis text-decoration-none">
+              <h3 class="">Pricing Table</h3>
+              <div class="card shadow-sm">
+                <img src="img/pricing-table.png" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="col py-3">
+            <a href="https://youichiuehara14.github.io/Profile-Card/" class="link-body-emphasis text-decoration-none">
+              <h3 class="">Profile Card</h3>
+              <div class=" card shadow-sm">
+                <img src="img/profile-card.png" alt="">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <section id="contact">
+    <div class="container col-xxl-8 px-4 py-5 mt-5  py-2">
+      <div class="row align-items-center g-5 py-5">
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold  lh-1 mb-3 text-primary">Let's Connect!
+          </h1>
+          <p class="lead">I'm always excited to connect, whether you have a project in mind, need a hand with
+            web development, or just want to talk tech! Feel free to drop me a message, and I'll get back to
+            you as soon as I can. Looking forward to exploring how we can make your vision a reality!
+          </p>
+        </div>
+        <div class="col-10 col-sm-8 col-lg-6">
+          <form action="">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1"
+                placeholder="JohnDoe112@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <button type="submit" class="btn btn-primary w-30 mt-3">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="container-fluid">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+        </div>
+        <ul class="nav col-md-4 list-unstyled d-flex justify-content-end px-5">
+          <li class="ms-3"><a class="text-body-secondary" href="#"> <a href="https://www.behance.net/youichiuehara1">
+                <img src="img/behance-color-svgrepo-com.svg" alt="behance-icon" id="behance" class="img-fluid"
+                  width="24"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"> <a
+                href="https://www.linkedin.com/in/youichiuehara/">
+                <img src="img/linkedin-icon-svgrepo-com.svg" alt="linkedin-icon" id="linkedin" class="img-fluid"
+                  width="24"></a></li>
+        </ul>
+      </footer>
+    </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
 </body>
+
 
 </html>
